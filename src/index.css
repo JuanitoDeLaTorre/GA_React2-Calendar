@@ -1,13 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 5% 6% 5% 1%;
+  background-color: rgb(57, 57, 57);
+  color: white;
+  font-family: "Montserrat";
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.categoryContainer {
+  margin-bottom: 50px;
+
+  height: 100px;
+  width: 75%;
+  margin-left: 12%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
+
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 300px;
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.category:hover {
+  transform: scale(103%)
+}
+
+.calendarContainer {
+  margin-left: 10%;
+  height: 80vh;
+  width: 82%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.dateBlock {
+  height: 100px;
+  width: 150px;
+  background-color: transparent;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid white 2px;
+  margin: 15px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.dateBlock:hover {
+  transform: scale(105%);
+  box-shadow: 0px 0px 10px white;
+}
+
+h1 {
+  text-align: center;
+}
+
+
