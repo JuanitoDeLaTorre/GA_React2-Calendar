@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactCalendar/static/css/main.c6d76955.css",
+    "main.js": "/ReactCalendar/static/js/main.fadb26e9.js",
+    "static/media/sunny.png": "/ReactCalendar/static/media/sunny.45a32ecd642f98567ce2.png",
+    "static/media/moon.png": "/ReactCalendar/static/media/moon.e5585e508bad58301c6c.png",
+    "index.html": "/ReactCalendar/index.html",
+    "main.c6d76955.css.map": "/ReactCalendar/static/css/main.c6d76955.css.map",
+    "main.fadb26e9.js.map": "/ReactCalendar/static/js/main.fadb26e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6d76955.css",
+    "static/js/main.fadb26e9.js"
+  ]
+}
